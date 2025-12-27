@@ -1,0 +1,56 @@
+site_name: Advanced Operating Systems
+repo_url: https://github.com/Fostidich
+repo_name: Fostidich
+theme:
+  name: material
+  favicon: linux.webp
+  logo: linux.webp
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Alan Sans
+    code: Fira Code
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - navigation.footer
+    - navigation.expand
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+nav:
+  - Home: index.md
+  - Kernel:
+      - Overview: kernel/overview.md
+      - Processes : kernel/processes.md
+  - Concurrency:
+      - Kernel space concurrency: concurrency/kernel-space-concurrency.md
+      - Locking synchronization: concurrency/locking-synchronization.md
+      - Lock-free synchronization: concurrency/lock-free-synchronization.md
+      - Memory consistency models: concurrency/memory-consistency-models.md
+  - Memory:
+      - Virtual address space: memory/virtual-address-space.md
+      - Physical address space: memory/physical-address-space.md
+  - Drivers:
+      - CPU device communication: drivers/cpu-device-communication.md
+      - Interrupt management: drivers/interrupt-management.md
+      - Device management: drivers/device-management.md
+  - Boot:
+      - Platform configuration: boot/platform-configuration.md
+      - Booting: boot/booting.md
+
