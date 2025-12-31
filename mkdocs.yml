@@ -53,4 +53,9 @@ nav:
   - Boot:
       - Platform configuration: boot/platform-configuration.md
       - Booting: boot/booting.md
+  - Virtualization:
+      - Introduction: virtualisation/introduction.md
+      - Software-based: virtualisation/software-based.md
+      - Hardware-based: virtualisation/hardware-based.md
+      - Containers: virtualisation/containers.md
 
