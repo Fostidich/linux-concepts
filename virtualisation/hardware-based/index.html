@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../kernel/processes/">
+        <link rel="prev" href="../software-based/">
       
       
-        <link rel="next" href="../locking-synchronization/">
+        <link rel="next" href="../containers/">
       
       
       <link rel="icon" href="../../linux.webp">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Kernel space concurrency - Advanced Operating Systems</title>
+        <title>Hardware-based - Advanced Operating Systems</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#kernel-space-concurrency" class="md-skip">
+        <a href="#hardware-based" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Kernel space concurrency
+              Hardware-based
             
           </span>
         </div>
@@ -364,20 +364,20 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -393,7 +393,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Concurrency
@@ -404,32 +404,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Kernel space concurrency
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../concurrency/kernel-space-concurrency/" class="md-nav__link">
         
   
   
@@ -440,35 +418,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#atomic-operations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Atomic operations
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -481,7 +430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../locking-synchronization/" class="md-nav__link">
+      <a href="../../concurrency/locking-synchronization/" class="md-nav__link">
         
   
   
@@ -504,7 +453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../lock-free-synchronization/" class="md-nav__link">
+      <a href="../../concurrency/lock-free-synchronization/" class="md-nav__link">
         
   
   
@@ -527,7 +476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../memory-consistency-models/" class="md-nav__link">
+      <a href="../../concurrency/memory-consistency-models/" class="md-nav__link">
         
   
   
@@ -856,20 +805,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
@@ -885,7 +834,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Virtualization
@@ -899,7 +848,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../virtualisation/introduction/" class="md-nav__link">
+      <a href="../introduction/" class="md-nav__link">
         
   
   
@@ -922,7 +871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../virtualisation/software-based/" class="md-nav__link">
+      <a href="../software-based/" class="md-nav__link">
         
   
   
@@ -942,10 +891,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../virtualisation/hardware-based/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Hardware-based
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -956,6 +927,95 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intel-vt-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intel VT-x
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kvm" class="md-nav__link">
+    <span class="md-ellipsis">
+      KVM
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="KVM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overcommitment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overcommitment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ballooning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ballooning
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#same-page-merging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Same-page merging
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qemu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Qemu
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Xen
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -968,7 +1028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../virtualisation/containers/" class="md-nav__link">
+      <a href="../containers/" class="md-nav__link">
         
   
   
@@ -1018,9 +1078,69 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#atomic-operations" class="md-nav__link">
+  <a href="#intel-vt-x" class="md-nav__link">
     <span class="md-ellipsis">
-      Atomic operations
+      Intel VT-x
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kvm" class="md-nav__link">
+    <span class="md-ellipsis">
+      KVM
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="KVM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overcommitment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overcommitment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ballooning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ballooning
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#same-page-merging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Same-page merging
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qemu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Qemu
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Xen
     </span>
   </a>
   
@@ -1045,44 +1165,118 @@
   
 
 
-<h1 id="kernel-space-concurrency">Kernel space concurrency</h1>
-<p>Kernel concurrency is crucial for modules to function correctly in
-multithreaded environments.
-Unlike user‑space programs, the kernel handles interrupt processing, spinning
-waits, and re-entrant code.
-Concurrency in kernels can have three sources: interrupts, multi-core systems
-or preemption.</p>
-<p>Note than in preemptive systems, after a interrupt finishes execution, the
-kernel may switch to a process in user space different from the last executing
-one.</p>
-<p>Linux kernel is optionally non-preemptive.
-In those cases a task in the kernel explicitly has to call <code>schedule</code>
-(when knowing it is safe to reschedule).
-Therefore, a planned context switch can happen if the process puts itself
-knowingly in a wait queue.</p>
-<h2 id="atomic-operations">Atomic operations</h2>
-<p>Atomic contexts are sections of code where a preemption is not safe.</p>
-<p>Typical atomic contexts are the following.</p>
+<h1 id="hardware-based">Hardware-based</h1>
+<p>Hardware-based virtualisation solves many software-based problems by
+introducing different execution modes.
+Ring aliasing is removed, with the guest supervisor working as a normal
+supervisor, letting the VMM decide which privileged instructions to trap (truly
+sensitive) and which to let pass without VMM intervention; this also improves
+performance.
+Then, the hardware offers a dedicated space to store guest context, ditching
+most shadow data structures.</p>
+<p>HW virtualisation is implemented in different ways depending on the ISA.
+x86 offers a VM control block to store the whole guest context, swtiching with
+a dedicated instruction.
+On other systems like ARM's, special registers hold just minimal VM
+information.</p>
+<h2 id="intel-vt-x">Intel VT-x</h2>
+<p>With Intel VT-x design it is possible to create a dedicated non-root mode,
+which duplicates the entire CPU state.
+Root mode is where the hypervisor operates from, while VMs live in this
+non-root mode.
+The switch between the two can be done anytime.
+Executions in non-root mode can be recursively virtualised too.</p>
+<p>Each mode uses its own interrupt flags, so that external interrupts, triggering
+in root mode, can instigate an easy transition to non-root mode.
+Regarding privileged instruction operations to data structures, those happen
+in a vCPU represented in the VMCS (Virtual Machine Control Structure), skipping
+trapping, being auto-managed.</p>
+<p>Intel specifically introduced a set of new instructions for managing
+virtualisation.
+Here are some of them.</p>
 <ul>
-<li>The kernel is within an interrupt handler</li>
-<li>The kernel is holding a spinning lock<ul>
-<li>This could lead to deadlocks or inconsistent state due to half‑completed
-critical sections</li>
+<li><code>vmxon</code> and <code>vmxoff</code> turn VT-x on and off.</li>
+<li><code>vmlaunch</code> enters non-root mode directly.</li>
+<li><code>vmresume</code> enters non-root mode but loading the guest state in the VMCS.</li>
+<li><code>vmexit</code> returns to root mode, saving state.</li>
 </ul>
-</li>
-<li>The kernel is modifying a CPU structures</li>
-<li>The kernel state cannot be restored completely with a context switch<ul>
-<li>For example when executing in a FPU, as micro-architectural states cannot
-be simply copied and restored by the kernel.</li>
-</ul>
-</li>
-</ul>
-<p>In kernel code, <code>preempt_disable</code> and <code>preempt_enable</code> can be used to
-define an atomic context.</p>
-<p>In real-time patched kernels, threads that must avoid interruption can set
-their priority to a value higher than fifty.
-Moreover, the interrupt handler is designed to perform minimal tasks, improving
-response time.</p>
+<p>VT-x also enhances paging, introducing an Extended Page Table (EPT).
+Instead of relying on a single virtual-to-physical page mapping register
+(<code>ec3</code>), it offers two, one for the guest to map guest-virtual to host-virtual,
+and one for typical host-virtual to host-physical pages.
+This eliminates exits as the EPT can be directly managed by the guest without
+requiring VMM intervention.</p>
+<h2 id="kvm">KVM</h2>
+<p>Kernel-based Virtual Machine is a virtualisation module directly built into the
+Linux kernel, letting it act as a type 1 hypervisor, having VMs run as threads.
+It's efficient as reuses Linux's scheduler, memory management, and drivers
+support.
+It can be started by opening the virtual <code>/dev/kvm</code> device.
+Typically, you'd place VM executions in a loop where the kernel takes control
+back when guest exits for whichever reasons.</p>
+<div class="highlight"><pre><span></span><code><span class="c1">// Enter hardware virtualisation.</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">kvm_fd</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">open</span><span class="p">(</span><span class="s">&quot;/dev/kvm&quot;</span><span class="p">);</span>
+<span class="c1">// Create guest memory.</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">vm_fd</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ioctl</span><span class="p">(</span><span class="n">kvm_fd</span><span class="p">,</span><span class="w"> </span><span class="n">KVM_CREATE_VM</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+<span class="c1">// Allocate vCPU.</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">vcpu_fd</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ioctl</span><span class="p">(</span><span class="n">vm_fd</span><span class="p">,</span><span class="w"> </span><span class="n">KVM_CREATE_VCPU</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+
+<span class="c1">// Map VMCS KVM abstraction from vCPU.</span>
+<span class="k">struct</span><span class="w"> </span><span class="nc">kvm_run</span><span class="w"> </span><span class="o">*</span><span class="n">kvm_run</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mmap</span><span class="p">(</span><span class="cm">/* ... */</span><span class="p">,</span><span class="w"> </span><span class="n">vcpu_fd</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+
+<span class="k">for</span><span class="w"> </span><span class="p">(;;)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// Run vCPU until exit.</span>
+<span class="w">    </span><span class="n">ioctl</span><span class="p">(</span><span class="n">vcpu_fd</span><span class="p">,</span><span class="w"> </span><span class="n">KVM_RUN</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+<span class="w">    </span><span class="k">switch</span><span class="p">(</span><span class="n">kvm_run</span><span class="o">-&gt;</span><span class="n">exit_reason</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Emulate IO in user space.</span>
+<span class="w">        </span><span class="k">case</span><span class="w"> </span><span class="no">KVM_EXIT_IO</span><span class="p">:</span><span class="w"> </span><span class="cm">/* ... */</span>
+<span class="w">        </span><span class="c1">// Check interrupt.</span>
+<span class="w">        </span><span class="k">case</span><span class="w"> </span><span class="no">KVM_EXIT_HLT</span><span class="p">:</span><span class="w"> </span><span class="cm">/* ... */</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="overcommitment">Overcommitment</h3>
+<p>VMs do not use 100% of their available memory, therefore, it is possible to
+allocate more VM memory that physically available.
+KVM VMs are based on Linux virtual memory, which allows each process to consume
+all its address space, enabling overcommitment by default.</p>
+<h3 id="ballooning">Ballooning</h3>
+<p>Ballooning is a way to enforce that VMs use of their physical memory stays
+under a set threshold.
+It is accomplished by adopting a special driver, which forces swapping to
+occur when a VM wants to allocate more memory than physically allowed.
+This can also be used when needing to free up space for allocating a new VM.</p>
+<h3 id="same-page-merging">Same-page merging</h3>
+<p>Kernel Same-page Merging (KSM) is a KVM tool that can be enabled and which
+allows virtual pages with same content to share the same physical page.
+Comparing pages can be very resource consuming, but it can be beneficial when
+using applications that produce many instances of identical data.
+When finding two duplicates, both get marked as CoW and one is redirected to
+the physical of the other.</p>
+<h3 id="qemu">Qemu</h3>
+<p>Qemu is a program which can create and manage VMs and emulate devices.
+It can also do pure CPU emulation, but with KVM enabled it can unload CPU
+execution to KVM directly for near-native speed.
+A big challenge for VMMs is managing hardware interactions/pass-through exposed
+to VMs.
+Qemu offers an ecosystem of emulated devices accessible via the VirtIO
+interface.
+VirtIO implements a standard set of device interfaces including network
+adapters, disk drives and IO controllers.</p>
+<p>Through a shared memory region (<code>virtqueue</code>), the VirtIO guest driver
+communicates directly with the hypervisor, knowing it is in a virtual machine;
+this concept is called paravirtualisation.
+Unlike full virtualisation, paravirtualisation modifies the guest OS to
+efficiently interface the hypervisor through hypercalls, reducing traps and
+emulation overhead.</p>
+<h2 id="xen">Xen</h2>
+<p>Xen is a type 1 hypervisor running on bare metal.
+Critical (privileged) instructions requiring ring 0 get replaced by hypercalls.
+In this way, user space applications typically remain unaffected, but this
+design requires guest OS (DomU) instructions in ring-0 to be ported to ring-1.
+Xen also support the use of Dom0, which is a specially privileged domain
+running Linux completely natively.
+DomU drivers can communicate with Dom0 directly, just like VirtIO.</p>
 
 
 
@@ -1118,7 +1312,7 @@ response time.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../kernel/processes/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Processes">
+          <a href="../software-based/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Software-based">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1128,20 +1322,20 @@ response time.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Processes
+                Software-based
               </div>
             </div>
           </a>
         
         
           
-          <a href="../locking-synchronization/" class="md-footer__link md-footer__link--next" aria-label="Next: Locking synchronization">
+          <a href="../containers/" class="md-footer__link md-footer__link--next" aria-label="Next: Containers">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Locking synchronization
+                Containers
               </div>
             </div>
             <div class="md-footer__button md-icon">

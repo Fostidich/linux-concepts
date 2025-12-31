@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../kernel/processes/">
+        <link rel="prev" href="../introduction/">
       
       
-        <link rel="next" href="../locking-synchronization/">
+        <link rel="next" href="../hardware-based/">
       
       
       <link rel="icon" href="../../linux.webp">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Kernel space concurrency - Advanced Operating Systems</title>
+        <title>Software-based - Advanced Operating Systems</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#kernel-space-concurrency" class="md-skip">
+        <a href="#software-based" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Kernel space concurrency
+              Software-based
             
           </span>
         </div>
@@ -364,20 +364,20 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -393,7 +393,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Concurrency
@@ -404,32 +404,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Kernel space concurrency
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../concurrency/kernel-space-concurrency/" class="md-nav__link">
         
   
   
@@ -440,35 +418,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#atomic-operations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Atomic operations
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -481,7 +430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../locking-synchronization/" class="md-nav__link">
+      <a href="../../concurrency/locking-synchronization/" class="md-nav__link">
         
   
   
@@ -504,7 +453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../lock-free-synchronization/" class="md-nav__link">
+      <a href="../../concurrency/lock-free-synchronization/" class="md-nav__link">
         
   
   
@@ -527,7 +476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../memory-consistency-models/" class="md-nav__link">
+      <a href="../../concurrency/memory-consistency-models/" class="md-nav__link">
         
   
   
@@ -856,20 +805,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
@@ -885,7 +834,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Virtualization
@@ -899,7 +848,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../virtualisation/introduction/" class="md-nav__link">
+      <a href="../introduction/" class="md-nav__link">
         
   
   
@@ -919,10 +868,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../virtualisation/software-based/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Software-based
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -933,6 +904,35 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problems
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -945,7 +945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../virtualisation/hardware-based/" class="md-nav__link">
+      <a href="../hardware-based/" class="md-nav__link">
         
   
   
@@ -968,7 +968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../virtualisation/containers/" class="md-nav__link">
+      <a href="../containers/" class="md-nav__link">
         
   
   
@@ -1018,9 +1018,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#atomic-operations" class="md-nav__link">
+  <a href="#problems" class="md-nav__link">
     <span class="md-ellipsis">
-      Atomic operations
+      Problems
     </span>
   </a>
   
@@ -1045,44 +1045,24 @@
   
 
 
-<h1 id="kernel-space-concurrency">Kernel space concurrency</h1>
-<p>Kernel concurrency is crucial for modules to function correctly in
-multithreaded environments.
-Unlike user‑space programs, the kernel handles interrupt processing, spinning
-waits, and re-entrant code.
-Concurrency in kernels can have three sources: interrupts, multi-core systems
-or preemption.</p>
-<p>Note than in preemptive systems, after a interrupt finishes execution, the
-kernel may switch to a process in user space different from the last executing
-one.</p>
-<p>Linux kernel is optionally non-preemptive.
-In those cases a task in the kernel explicitly has to call <code>schedule</code>
-(when knowing it is safe to reschedule).
-Therefore, a planned context switch can happen if the process puts itself
-knowingly in a wait queue.</p>
-<h2 id="atomic-operations">Atomic operations</h2>
-<p>Atomic contexts are sections of code where a preemption is not safe.</p>
-<p>Typical atomic contexts are the following.</p>
-<ul>
-<li>The kernel is within an interrupt handler</li>
-<li>The kernel is holding a spinning lock<ul>
-<li>This could lead to deadlocks or inconsistent state due to half‑completed
-critical sections</li>
-</ul>
-</li>
-<li>The kernel is modifying a CPU structures</li>
-<li>The kernel state cannot be restored completely with a context switch<ul>
-<li>For example when executing in a FPU, as micro-architectural states cannot
-be simply copied and restored by the kernel.</li>
-</ul>
-</li>
-</ul>
-<p>In kernel code, <code>preempt_disable</code> and <code>preempt_enable</code> can be used to
-define an atomic context.</p>
-<p>In real-time patched kernels, threads that must avoid interruption can set
-their priority to a value higher than fifty.
-Moreover, the interrupt handler is designed to perform minimal tasks, improving
-response time.</p>
+<h1 id="software-based">Software-based</h1>
+<p>Software-based virtualisation adopts a process called deprivileging, for which
+guest's supervisor instructions are translated into host user space.
+The VMM further intercepts all guest modifications to kernel data structures,
+such as the IDT (Interrupt Descriptor Table), redirecting them to internally
+managed replicates, when necessary.
+Another example of these "shadow tables" are page tables: the hypervisor catches
+the guest OS when attempting to set its own page table, and it builds a
+corresponding shadow table where guest "physical" pages are translated to host
+virtual ones.</p>
+<h2 id="problems">Problems</h2>
+<p>Some architectures originally couldn't be efficiently virtualised because not
+all "sensitive" instructions were privileged.</p>
+<p>A guest supervisor could detect deprivileging by reading some hardware
+registers seeing mismatched CPL (Current Privilege Level) or host tables,
+exposing the VMM presence.
+Furthermore, constant emulation (<code>sysenter</code>/<code>sysexit</code> called for every guest
+<code>syscall</code>) required too many traps, making software-only VMMs impractical.</p>
 
 
 
@@ -1118,7 +1098,7 @@ response time.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../kernel/processes/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Processes">
+          <a href="../introduction/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Introduction">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1128,20 +1108,20 @@ response time.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Processes
+                Introduction
               </div>
             </div>
           </a>
         
         
           
-          <a href="../locking-synchronization/" class="md-footer__link md-footer__link--next" aria-label="Next: Locking synchronization">
+          <a href="../hardware-based/" class="md-footer__link md-footer__link--next" aria-label="Next: Hardware-based">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Locking synchronization
+                Hardware-based
               </div>
             </div>
             <div class="md-footer__button md-icon">
